@@ -3,7 +3,7 @@
 
 /**
  * File: main.h
- * Auth: Ngare Macharia
+ * Auth: Emmanuel Aghedo
  * Desc: Header file containing prototypes for all functions
  * used in the 0x07-recursion directory.
  */
