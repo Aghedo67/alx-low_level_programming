@@ -8,6 +8,7 @@
  * return: array pointer address
  * NULL if it fails
  */
+
 int *array_range(int min, int max)
 {
 	int i, *array;
