@@ -5,7 +5,7 @@
  * @min: min number of elements
  * @max: max number of elements
  *
- * return: array pointer address
+ * Return: array pointer address
  * NULL if it fails
  */
 
