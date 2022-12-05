@@ -64,9 +64,9 @@ void print_magic(unsigned char *e_ident)
 }
 
 /**
- *  * print_class - Prints the class of an ELF header.
- *   * @e_ident: A pointer to an array containing the ELF class.
- *    */
+ * print_class - Prints the class of an ELF header.
+ * @e_ident: A pointer to an array containing the ELF class.
+ */
 void print_class(unsigned char *e_ident)
 {
 	printf("  Class:                             ");
@@ -101,7 +101,7 @@ void print_data(unsigned char *e_ident)
 		printf("none\n");
 		break;
 	case ELFDATA2LSB:
-		printf("2's complement, little endian\n");		
+		printf("2's complement,little endian\n");
 		break;																	case ELFDATA2MSB:
 		printf("2's complement, big endian\n");
 		break;
